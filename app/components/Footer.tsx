@@ -195,7 +195,7 @@ export function Footer() {
                     </h4>
                     <a
                       href={`mailto:${import.meta.env.VITE_CUSTOMER_SUPPORT_EMAIL}`}
-                      className="text-sm hover:text-blue-300 transition-colors !text-[var(--color-1)] underline underline-offset-4 text-wrap"
+                      className="text-sm hover:text-blue-300 transition-colors !text-[var(--color-footer)] underline underline-offset-4 text-wrap"
                     >
                       {import.meta.env.VITE_CUSTOMER_SUPPORT_EMAIL}
                     </a>
