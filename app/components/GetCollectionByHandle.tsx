@@ -59,7 +59,7 @@ const GET_COLLECTION_BY_HANDLE_QUERY = `
       image {
         url
       }
-      products(first: 20) {
+      products(first: 250) {
         nodes {
           id
           title
@@ -219,7 +219,7 @@ export function CollectionByHandle({
         const result = (await response.json()) as GraphQLResponse;
         if (result.errors && result.errors.length > 0) {
           throw new Error(result.errors[0].message);
-        }
+        }        
 
         const collectionData = result.data?.collectionByHandle;
 
