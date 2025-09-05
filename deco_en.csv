@@ -1,0 +1,22 @@
+title,description,handle,match_any,type,operator,value
+Dernière Chance,Dernière Chance,derniere-chance,TRUE,PRICE,GREATER_THAN,21
+Dernière Chance,Dernière Chance,derniere-chance-02,TRUE,PRICE,LESS_THAN,49
+Tout à moins de 20€,Tout à moins de 20€,tout-a-moins-de-20,TRUE,PRICE,LESS_THAN,21
+Offre Flash,Offre Flash,offre-flash,TRUE,PRICE,GREATER_THAN,49
+Chaises & Tabourets,Chaises & Tabourets,chaises-tabourets,TRUE,TAG,EQUALS,chaise
+Chaises & Tabourets,Chaises & Tabourets,chaises-tabourets-02,TRUE,TAG,EQUALS,tabouret
+Meuble TV,Meuble TV,meuble-tv,TRUE,TAG,EQUALS,Meuble TV
+Miroirs,Miroirs,miroirs,TRUE,TAG,EQUALS,miroir
+Vitrines,Vitrines,vitrines,TRUE,TAG,EQUALS,vitrine
+Canapés & Fauteuils,Canapés & Fauteuils,canapes-fauteuils,TRUE,TAG,EQUALS,canapé
+Canapés & Fauteuils,Canapés & Fauteuils,canapes-fauteuils-02,TRUE,TAG,EQUALS,Fauteuil
+Tables Basses,Tables Basses,tables-basses,TRUE,TAG,EQUALS,Tables Basses
+Bibliothèque & Étagère,Bibliothèque & Étagère,bibliotheque-etagere,TRUE,TAG,EQUALS,Bibliothèque & Étagère
+Bibliothèque & Étagère,Bibliothèque & Étagère,bibliotheque-etagere-02,TRUE,TAG,EQUALS,Bibliothèque
+Bibliothèque & Étagère,Bibliothèque & Étagère,bibliotheque-etagere-03,TRUE,TAG,EQUALS,étagère
+Tables à Manger,Tables à Manger,tables-a-manger,TRUE,TAG,EQUALS,table
+Bancs,Bancs,bancs,TRUE,TAG,EQUALS,bancs
+Commodes & Buffets,Commodes & Buffets,commodes-buffets,TRUE,TAG,EQUALS,commode
+Commodes & Buffets,Commodes & Buffets,commodes-buffets-04,TRUE,TAG,EQUALS,buffet
+Meuble à Chaussures,Meuble à Chaussures,meuble-a-chaussures,TRUE,TAG,EQUALS,Meuble à Chaussures
+Rangement & Organisation,Rangement & Organisation,rangement-organisation,TRUE,TAG,EQUALS,Rangement & Organisation
