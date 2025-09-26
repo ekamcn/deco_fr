@@ -1,7 +1,7 @@
 import React from 'react';
 import FaqSection from '~/components/FaqSection';
 import Form from '~/components/Form';
-
+ 
 const sections = [
   {
     title: 'Livraison & Retours',
@@ -21,7 +21,7 @@ const sections = [
               contacter à l’adresse suivante :{' '}
               <a
                 href={`mailto:${import.meta.env.VITE_CUSTOMER_SUPPORT_EMAIL}`}
-                className="hover:text-blue-300 transition-colors !text-[var(--color-footer)] underline underline-offset-4"
+                className="hover:text-blue-300 transition-colors !text-white underline underline-offset-4"
               >
                 {import.meta.env.VITE_CUSTOMER_SUPPORT_EMAIL}
               </a>
@@ -32,7 +32,6 @@ const sections = [
         ),
       },
       {
-        
         question: 'Comment annuler ma commande ?',
         answer: (
           <div className="flex flex-col gap-4">
@@ -45,7 +44,7 @@ const sections = [
               l’adresse suivante :{' '}
               <a
                 href={`mailto:${import.meta.env.VITE_CUSTOMER_SUPPORT_EMAIL}`}
-                className="hover:text-blue-300 transition-colors !text-[var(--color-footer)] underline underline-offset-4"
+                className="hover:text-blue-300 transition-colors !text-white underline underline-offset-4"
               >
                 {import.meta.env.VITE_CUSTOMER_SUPPORT_EMAIL}
               </a>
@@ -102,7 +101,7 @@ const sections = [
               l’adresse suivante :{' '}
               <a
                 href={`mailto:${import.meta.env.VITE_CUSTOMER_SUPPORT_EMAIL}`}
-                className="hover:text-blue-300 transition-colors !text-[var(--color-footer)] underline underline-offset-4"
+                className="hover:text-blue-300 transition-colors !text-white underline underline-offset-4"
               >
                 {import.meta.env.VITE_CUSTOMER_SUPPORT_EMAIL}
               </a>
@@ -129,7 +128,7 @@ const sections = [
               client à l’adresse :{' '}
               <a
                 href={`mailto:${import.meta.env.VITE_CUSTOMER_SUPPORT_EMAIL}`}
-                className="hover:text-blue-300 transition-colors !text-[var(--color-footer)] underline underline-offset-4"
+                className="hover:text-blue-300 transition-colors !text-white underline underline-offset-4"
               >
                 {import.meta.env.VITE_CUSTOMER_SUPPORT_EMAIL}
               </a>
@@ -156,7 +155,7 @@ const sections = [
               l’adresse suivante :{' '}
               <a
                 href={`mailto:${import.meta.env.VITE_CUSTOMER_SUPPORT_EMAIL}`}
-                className="hover:text-blue-300 transition-colors !text-[var(--color-footer)] underline underline-offset-4"
+                className="hover:text-blue-300 transition-colors !text-white underline underline-offset-4"
               >
                 {import.meta.env.VITE_CUSTOMER_SUPPORT_EMAIL}
               </a>
@@ -249,7 +248,7 @@ const sections = [
     ],
   },
 ];
-
+ 
 export default function FAQPage() {
   return (
     <div>
@@ -263,3 +262,5 @@ export default function FAQPage() {
     </div>
   );
 }
+ 
+ 
